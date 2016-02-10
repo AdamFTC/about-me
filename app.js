@@ -34,7 +34,7 @@ else if (coffeeCase === 'N') {
 }
 
 var sportsBall = prompt('Am I a big sports fan?');
-var sportsCase sportsBall.toUpperCase();
+var sportsCase = sportsBall.toUpperCase();
 if (sportsCase === 'Y') {
   alert('Sorry, I really don\'t qualify as a sports nut.');
   console.log('The user answered yes.');
